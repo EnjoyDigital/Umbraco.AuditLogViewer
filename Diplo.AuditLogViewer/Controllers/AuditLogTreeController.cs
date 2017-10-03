@@ -15,7 +15,7 @@ namespace Diplo.AuditLogViewer.Controllers
     /// <summary>
     /// Controller that controls generation of the audit log tree within the developer section
     /// </summary>
-    [UmbracoApplicationAuthorize(Constants.Applications.Developer)]
+    //[UmbracoApplicationAuthorize(Constants.Applications.Developer)]
     [Tree(Constants.Applications.Developer, "diploAuditLog", "Audit Logs", sortOrder: 10)]
     [PluginController("DiploAuditLogViewer")]
     public class AuditLogTreeController : TreeController

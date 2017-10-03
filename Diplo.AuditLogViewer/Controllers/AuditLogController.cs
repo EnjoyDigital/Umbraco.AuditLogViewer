@@ -13,7 +13,7 @@ namespace Diplo.AuditLogViewer.Controllers
     /// <summary>
     /// Controller for returning log data as JSON to authenticated developers
     /// </summary>
-    [UmbracoApplicationAuthorize(Constants.Applications.Developer)]
+    //[UmbracoApplicationAuthorize(Constants.Applications.)]
     [PluginController("AuditLogViewer")]
     public class AuditLogController : UmbracoAuthorizedJsonController
     {
